@@ -1,0 +1,12 @@
+---
+restart:
+  module: restart
+  class: Restart
+
+man:
+  module: man
+  class: ManualControl
+
+setspeed:
+  module: setspeed
+  class: SetSpeed
